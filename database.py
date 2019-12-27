@@ -7,7 +7,7 @@ def connection():
     return mysql.connector.connect(
         host = 'localhost',
         user = 'root',
-        passwd = 'Project2019!',
+        passwd = '*',
         database = 'repos',
         charset = 'utf8',
     )
